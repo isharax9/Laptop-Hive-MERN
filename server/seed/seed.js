@@ -8,10 +8,13 @@ const {seedCart} = require("./Cart")
 const {seedReview} = require("./Review")
 const {seedOrder} = require("./Order")
 const {DBConnection} = require("../database/DBConnection")
+const mongoose = require("mongoose");
 
 const seedData = async () => {
     try {
         await DBConnection()
+        await mongoose.connection.dropDatabase();
+
         await seedBrand()
         await seedCategory()
         await seedProduct()
