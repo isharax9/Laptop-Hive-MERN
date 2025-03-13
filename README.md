@@ -108,6 +108,11 @@ Once both servers are running, you can access them at the following URL's:
   pass: User12345
 ```
 
+```bash
+  email: user2@gmail.com
+  pass: User212345
+```
+
 ### Admin Account
 
 ```bash
