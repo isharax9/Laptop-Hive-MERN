@@ -1,18 +1,17 @@
-const {seedBrand}=require("./Brand")
-const {seedCategory}=require("./Category")
-const {seedProduct}=require("./Product")
-const {seedUser}=require("./User")
-const {seedAddress}=require("./Address")
-const {seedWishlist}=require("./Wishlist")
-const {seedCart}=require("./Cart")
-const {seedReview}=require("./Review")
-const {seedOrder}=require("./Order")
-const {connectToDB}=require("../database/db")
+const {seedBrand} = require("./Brand")
+const {seedCategory} = require("./Category")
+const {seedProduct} = require("./Product")
+const {seedUser} = require("./User")
+const {seedAddress} = require("./Address")
+const {seedWishlist} = require("./Wishlist")
+const {seedCart} = require("./Cart")
+const {seedReview} = require("./Review")
+const {seedOrder} = require("./Order")
+const {DBConnection} = require("../database/DBConnection")
 
-const seedData=async()=>{
+const seedData = async () => {
     try {
-        await connectToDB()
-        console.log('Seed [started] please wait..');
+        await DBConnection()
         await seedBrand()
         await seedCategory()
         await seedProduct()
@@ -23,7 +22,7 @@ const seedData=async()=>{
         await seedReview()
         await seedOrder()
 
-        console.log('Seed completed..');
+        console.log('\x1b[34mSeed completed successfully\x1b[0m');
     } catch (error) {
         console.log(error);
     }

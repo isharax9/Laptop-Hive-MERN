@@ -10,8 +10,8 @@ import ReviewSlice from '../features/review/ReviewSlice'
 import OrderSlice from '../features/order/OrderSlice'
 import WishlistSlice from '../features/wishlist/WishlistSlice'
 
-export const store=configureStore({
-    reducer:{
+export const store = configureStore({
+    reducer: {
         AuthSlice,
         ProductSlice,
         UserSlice,

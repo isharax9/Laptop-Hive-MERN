@@ -1,17 +1,16 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "author": "Kavithma Thushal",
+  "license": "GNU",
+  "private": true,
+  "description": "This is the backend of coursework for Rappid Application Development in GDSE66 @IJSE.",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "seed":"node seed/seed.js",
+    "seed": "node seed/seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",

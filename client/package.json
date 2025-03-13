@@ -1,7 +1,10 @@
 {
   "name": "frontend",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "author": "Kavithma Thushal",
+  "license": "GNU",
   "private": true,
+  "description": "This is the frontend of coursework for Rappid Application Development in GDSE66 @IJSE.",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
