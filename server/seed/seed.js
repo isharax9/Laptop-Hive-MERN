@@ -17,13 +17,13 @@ const seedData = async () => {
 
         await seedBrand()
         await seedCategory()
-        await seedProduct()
+        // await seedProduct()
         await seedUser()
-        await seedAddress()
-        await seedWishlist()
-        await seedCart()
-        await seedReview()
-        await seedOrder()
+        // await seedAddress()
+        // await seedWishlist()
+        // await seedCart()
+        // await seedReview()
+        // await seedOrder()
 
         console.log('\x1b[34mSeed completed successfully\x1b[0m');
     } catch (error) {
