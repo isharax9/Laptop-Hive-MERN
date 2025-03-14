@@ -50,7 +50,7 @@ export const Navbar=({isProductList=false})=> {
   const settings = [
     {name:"Home",to:"/"},
     {name:'Profile',to:loggedInUser?.isAdmin?"/admin/profile":"/profile"},
-    {name:loggedInUser?.isAdmin?'Orders':'My orders',to:loggedInUser?.isAdmin?"/admin/orders":"/orders"},
+    {name:loggedInUser?.isAdmin?'Orders':'My Orders',to:loggedInUser?.isAdmin?"/admin/orders":"/orders"},
     {name:'Logout',to:"/logout"},
   ];
 
@@ -91,7 +91,7 @@ export const Navbar=({isProductList=false})=> {
                 loggedInUser?.isAdmin && 
               
                 <MenuItem  onClick={handleCloseUserMenu}>
-                  <Typography component={Link} color={'text.primary'} sx={{textDecoration:"none"}} to="/admin/add-product" textAlign="center">Add new Product</Typography>
+                  <Typography component={Link} color={'text.primary'} sx={{textDecoration:"none"}} to="/admin/add-product" textAlign="center">Add New Product</Typography>
                 </MenuItem>
               
               }
