@@ -17,7 +17,7 @@ import { ITEMS_PER_PAGE } from '../../../constants'
 import {createWishlistItemAsync, deleteWishlistItemByIdAsync, resetWishlistItemAddStatus, resetWishlistItemDeleteStatus, selectWishlistItemAddStatus, selectWishlistItemDeleteStatus, selectWishlistItems} from '../../wishlist/WishlistSlice'
 import {selectLoggedInUser} from '../../auth/AuthSlice'
 import {toast} from 'react-toastify'
-import {banner1, banner2, banner3, banner4, loadingAnimation} from '../../../assets'
+import {banner1, banner2, banner3, banner4,banner5,banner6,banner7,banner8,loadingAnimation} from '../../../assets'
 import { resetCartItemAddStatus, selectCartItemAddStatus } from '../../cart/CartSlice'
 import { motion } from 'framer-motion'
 import { ProductBanner } from './ProductBanner'
@@ -31,7 +31,7 @@ const sortOptions=[
 ]
 
 
-const bannerImages=[banner1,banner3,banner2,banner4]
+const bannerImages=[banner1,banner3,banner2,banner4,banner5,banner6,banner7,banner8]
 
 export const ProductList = () => {
     const [filters,setFilters]=useState({})
@@ -258,9 +258,9 @@ export const ProductList = () => {
 
                 {/* banners section */}
                 {
-                    !is600 && 
-                
-                <Stack sx={{width:"100%",height:is800?"300px":is1200?"400px":"500px"}}>
+                    !is600 &&
+
+                <Stack sx={{ width: "100vw", height: "90vh" }}>
                     <ProductBanner images={bannerImages}/>
                 </Stack>
                 }
