@@ -19,8 +19,8 @@ const categories = [
     {_id: "65a7e24602e12c44f5994442", name: "Gaming Mouse"},
     {_id: "65a7e24602e12c44f5994443", name: "Gaming Keyboards"},
     {_id: "65a7e24602e12c44f5994444", name: "Gaming Chair"},
-    {_id: "65a7e24602e12c44f5994445", name: "Printers"},
     {_id: "65a7e24602e12c44f5994446", name: "Speakers"},
+    {_id: "65a7e24602e12c44f5994445", name: "Others"},
 ];
 
 exports.seedCategory = async () => {
