@@ -22,7 +22,7 @@ const seedData = async () => {
         await seedAddress()
         // await seedWishlist()
         // await seedCart()
-        // await seedReview()
+        await seedReview()
         // await seedOrder()
 
         console.log('\x1b[34mSeed completed successfully\x1b[0m');
