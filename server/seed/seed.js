@@ -19,7 +19,7 @@ const seedData = async () => {
         await seedCategory()
         await seedProduct()
         await seedUser()
-        // await seedAddress()
+        await seedAddress()
         // await seedWishlist()
         // await seedCart()
         // await seedReview()
