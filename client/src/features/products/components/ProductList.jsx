@@ -44,7 +44,19 @@ import {
 } from '../../wishlist/WishlistSlice'
 import {selectLoggedInUser} from '../../auth/AuthSlice'
 import {toast} from 'react-toastify'
-import {banner1, banner2, banner3, banner4, banner5, banner6, banner7, banner8, loadingAnimation} from '../../../assets'
+import {
+    banner1,
+    banner2,
+    banner3,
+    banner4,
+    banner5,
+    banner6,
+    banner7,
+    banner8,
+    banner9,
+    banner10,
+    loadingAnimation
+} from '../../../assets'
 import {resetCartItemAddStatus, selectCartItemAddStatus} from '../../cart/CartSlice'
 import {motion} from 'framer-motion'
 import {ProductBanner} from './ProductBanner'
@@ -56,7 +68,7 @@ const sortOptions = [
     {name: "Price: high to low", sort: "price", order: "desc"},
 ]
 
-const bannerImages = [banner1, banner3, banner2, banner4, banner5, banner6, banner7, banner8]
+const bannerImages = [banner1, banner3, banner2, banner4, banner5, banner6, banner7, banner8, banner9, banner10]
 
 export const ProductList = () => {
     const [filters, setFilters] = useState({})

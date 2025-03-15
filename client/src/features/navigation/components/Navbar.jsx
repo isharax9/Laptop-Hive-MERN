@@ -64,7 +64,7 @@ export const Navbar = ({isProductList = false}) => {
                     color: 'inherit',
                     textDecoration: 'none',
                 }}>
-                    MERN SHOP
+                    LAPTOP HIVE
                 </Typography>
 
                 <Stack flexDirection={'row'} alignItems={'center'} justifyContent={'center'} columnGap={2}>

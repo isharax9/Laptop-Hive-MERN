@@ -19,6 +19,8 @@ import banner5 from './images/banner5.jpg'
 import banner6 from './images/banner6.jpg'
 import banner7 from './images/banner7.jpg'
 import banner8 from './images/banner8.jpg'
+import banner9 from './images/banner9.jpg'
+import banner10 from './images/banner10.jpg'
 import loadingAnimation from './animations/loading.json'
 
 export {
@@ -43,5 +45,7 @@ export {
     banner6,
     banner7,
     banner8,
+    banner9,
+    banner10,
     loadingAnimation
 }
