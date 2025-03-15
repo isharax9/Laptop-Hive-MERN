@@ -80,7 +80,7 @@ export const Signup = () => {
                     <Stack rowGap={'.4rem'}>
                         <Typography variant='h2' sx={{wordBreak: "break-word"}} fontWeight={600}>Laptop
                             Hive</Typography>
-                        <Typography alignSelf={'flex-end'} color={'GrayText'} variant='body2'>Your Tech
+                        <Typography alignSelf={'flex-end'} color={'GrayText'} variant='body2'>- Your Tech
                             Destination</Typography>
                     </Stack>
 
