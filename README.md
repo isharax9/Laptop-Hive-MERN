@@ -21,6 +21,15 @@ essential features for a seamless experience.
 
 ## 🚀 Key Features
 
+### ✅ Admin
+
+- **Product Management:**
+    - Add, edit, delete, and soft-delete products.
+    - Manage product attributes like name and stock.
+
+- **Order Management:**
+    - View and update order details and status.
+
 ### ✅ User
 
 - **Product Reviews:**
@@ -39,15 +48,6 @@ essential features for a seamless experience.
 - **Shopping Cart:**
     - Add products, adjust quantities, and view subtotals.
 
-### ✅ Admin
-
-- **Product Management:**
-    - Add, edit, delete, and soft-delete products.
-    - Manage product attributes like name and stock.
-
-- **Order Management:**
-    - View and update order details and status.
-
 ### ✅ Security
 
 - **Secure Authentication:**
@@ -55,7 +55,7 @@ essential features for a seamless experience.
 
 ## 📧 How to use
 
-**Frontend**
+### ✅ Frontend
 
 - Create a `.env` file in the client directory
 - Add the following variable:
@@ -65,7 +65,7 @@ essential features for a seamless experience.
 REACT_APP_BASE_URL="http://localhost:8000" 
 ```
 
-**Backend**
+### ✅ Backend
 
 - Create a `.env` file in the server directory.
 - Add the following variables with appropriate values
@@ -94,30 +94,45 @@ SECRET_KEY="your-secret-key"
 PRODUCTION="false"
 ```
 
-### Accessing the Application
+### ✅ Accessing the Application
 
 Once both servers are running, you can access them at the following URL's:
 
 - Frontend: http://localhost:3000
 - Backend: http://localhost:8000
 
-### User Account
+### ✅ Admin Account
 
 ```bash
-  email: kavithmathushal24@gmail.com
+  email: admin@gmail.com
+  pass: Admin12345
+```
+
+### ✅ User Accounts
+
+```bash
+  email: user1@gmail.com
   pass: User12345
 ```
 
 ```bash
   email: user2@gmail.com
-  pass: User212345
+  pass: User12345
 ```
 
-### Admin Account
+```bash
+  email: user3@gmail.com
+  pass: User12345
+```
 
 ```bash
-  email: kavithmathushal451@gmail.com
-  pass: Admin12345
+  email: user4@gmail.com
+  pass: User12345
+```
+
+```bash
+  email: user5@gmail.com
+  pass: User12345
 ```
 
 ## 📝 Version
