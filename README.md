@@ -141,49 +141,49 @@ Once both servers are running, you can access them at the following URL's:
 
 <img src="client/src/assets/ss/Login.png">
 
-### Add Product
-
-<img src="client/src/assets/ss/Add%20Products.png">
-
 ### Admin Panel
 
 <img src="client/src/assets/ss/Admin%20Panel.png">
 
-### cart
+### Manage Products
 
-<img src="client/src/assets/ss/Cart.png">
-
-### Filters
-
-<img src="client/src/assets/ss/Filters.png">
+<img src="client/src/assets/ss/Manage%20Products.png">
 
 ### Manage Orders
 
 <img src="client/src/assets/ss/Manage%20Orders.png">
 
-### products
+### User Panel
 
-<img src="client/src/assets/ss/Products.png">
+<img src="client/src/assets/ss/User%20Panel.png">
 
 ### Manage Profile
 
 <img src="client/src/assets/ss/Manage%20Profile.png">
 
-### Purchase
+### Products
 
-<img src="client/src/assets/ss/Purchase.png">
+<img src="client/src/assets/ss/Products.png">
 
-### User Panel
+### Filters
 
-<img src="client/src/assets/ss/User%20Panel.png">
-
-### View Order History
-
-<img src="client/src/assets/ss/View%20Order%20History.png">
+<img src="client/src/assets/ss/Filters.png">
 
 ### Wishlist
 
 <img src="client/src/assets/ss/Wishlist.png">
+
+### Cart
+
+<img src="client/src/assets/ss/Cart.png">
+
+### Purchase
+
+<img src="client/src/assets/ss/Purchase.png">
+
+### View Order History
+
+<img src="client/src/assets/ss/View%20Order%20History.png">
 
 ### Codes
 
